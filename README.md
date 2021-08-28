@@ -85,6 +85,8 @@ class UserDto
 {
     public string Username { get; set; }
 
+    public string Name { get; set; }
+
     internal static UserDto Map(User user, bool showName, bool uppercaseName = false)
     {
         var name = uppercaseName ? user.Name.ToUpper() : user.Name;
