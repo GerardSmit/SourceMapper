@@ -10,7 +10,7 @@ Currently there are no NuGet packages because the project is in early stage.
 - [ ] Nested mappings
 
 ## Example
-In the following example, we map the `Username` from `UserDto` to `Username` in `UserDto`.
+In the following example, we map the `Username` from `User` to `Username` in `UserDto`.
 
 **Source**
 ```cs
